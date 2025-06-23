@@ -39,7 +39,7 @@ const Mission = () => {
             backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.7) 100%), url(${third.src})`,
           }}
         >
-          <p className='sm:w-[310px] sm:text-[22px] sm:pl-[30px] sm:pt-[410px] pt-[270px] text-[14px] p-[30px]'>
+          <p className='sm:w-[510px] sm:text-[22px] sm:pl-[30px] sm:pt-[410px] pt-[270px] text-[14px] p-[30px]'>
             Build scalable IT solutions that support business and government
             transformation
           </p>
