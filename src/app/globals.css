@@ -29,4 +29,5 @@ body {
 html {
   scroll-behavior: smooth;
   scroll-margin-top: 100px;
+  color: white;
 }

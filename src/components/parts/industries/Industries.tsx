@@ -34,18 +34,18 @@ export default function Industries() {
   return (
     <section
       id='industries'
-      className='w-full sm:min-h-screen sm:overflow-hidden sm:relative sm:px-28 pt-[60px] sm:p-0 pl-[22px] pr-0 '
+      className='w-full sm:min-h-screen sm:overflow-hidden sm:relative sm:pl-28 pt-[60px] sm:p-0 pl-[22px] pr-0'
     >
-      <div className='flex sm:flex-row flex-col justify-between pb-[30px] sm:pb-14'>
+      <div className='flex sm:flex-row flex-col justify-between pb-[30px] sm:pb-14 sm:pr-[194px]'>
         <h1 className='text-[#008557] sm:text-6xl text-[28px] leading-none sm:mt-0 mt-[10px]'>
           OUR CORE INDUSTRIES
         </h1>
-        <h2 className='sm:text-4xl sm:text-end text-[18px] sm:leading-none'>
+        <h2 className='sm:text-4xl sm:text-end text-[18px] sm:leading-none text-white'>
           ENERGY, CHEMICALS & COMMODITIES
         </h2>
       </div>
 
-      <div className='relative w-full sm:h-[551px] h-[460px] flex gap-[40px] overflow-x-auto overflow-y-hidden sm:overflow-hidden sm:block'>
+      <div className='relative w-full sm:h-[551px] h-[390px] flex gap-[40px] overflow-x-auto overflow-y-hidden sm:overflow-hidden sm:block [&_.group:hover~.group]:sm:translate-x-[640px]'>
         {cards.map((card, i) => {
           const isLast = i === cards.length - 1;
           const leftOffset = `${i * 15}%`;
@@ -57,6 +57,7 @@ export default function Industries() {
             group sm:absolute top-0
         sm:w-[478px] sm:h-full
         border border-white
+        pr-[16px] sm:pr-[20px]
         flex sm:flex-row sm:justify-between flex-col bg-[#1A1A1A]/95 p-[20px] sm:p-6 text-white
         text-left
         ${zClasses[i]}
@@ -64,7 +65,9 @@ export default function Industries() {
         sm:hover:w-[840px] hover:z-50
         ${isLast ? 'hover:right-0 mr-[22px] sm:mr-0' : ''}
       `}
-              style={{ left: leftOffset }}
+              style={{
+                left: leftOffset,
+              }}
             >
               <div
                 className={`flex flex-col gap-[20px] sm:justify-between w-[273px] sm:w-[430px] h-full ${
@@ -80,7 +83,7 @@ export default function Industries() {
                 <Image
                   src={card.photo}
                   alt={card.title}
-                  className='sm:hidden'
+                  className='sm:hidden w-full h-32 object-cover'
                 />
               </div>
               <div
@@ -97,8 +100,7 @@ export default function Industries() {
                   <Image
                     src={card.photo}
                     alt={card.title}
-                    fill
-                    className='object-cover hidden sm:block'
+                    className='w-full h-full object-cover hidden sm:block'
                   />
                 )}
               </div>
