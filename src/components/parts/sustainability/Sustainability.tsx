@@ -1,6 +1,6 @@
-import pic1 from '/public/pic8.jpg';
-import pic2 from '/public/pic9.jpg';
-import pic3 from '/public/pic10.jpg';
+import pic1 from '/public/pic8.webp';
+import pic2 from '/public/pic9.webp';
+import pic3 from '/public/pic10.webp';
 import Image from 'next/image';
 
 const Sustainability = () => {

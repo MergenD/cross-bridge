@@ -1,6 +1,6 @@
 import React from 'react';
 import Image from 'next/image';
-import pic from '/public/pic1.jpg';
+import pic from '/public/pic1.webp';
 
 const AboutUs = () => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '/public/pic2.jpg';
+import pic from '/public/pic2.webp';
 import Image from 'next/image';
 
 const Identity = () => {

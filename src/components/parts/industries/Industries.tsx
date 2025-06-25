@@ -1,8 +1,8 @@
 import React from 'react';
-import pic1 from '/public/pic13.jpg';
-import pic2 from '/public/pic14.jpg';
-import pic3 from '/public/pic7.jpg';
-import pic4 from '/public/pic15.jpg';
+import pic1 from '/public/pic13.webp';
+import pic2 from '/public/pic14.webp';
+import pic3 from '/public/pic7.webp';
+import pic4 from '/public/pic15.webp';
 import Image from 'next/image';
 
 const cards = [
@@ -45,7 +45,7 @@ export default function Industries() {
         </h2>
       </div>
 
-      <div className='relative w-full sm:h-[551px] h-[390px] flex gap-[40px] overflow-x-auto overflow-y-hidden sm:overflow-hidden sm:block [&_.group:hover~.group]:sm:translate-x-[640px]'>
+      <div className='relative w-full sm:h-[551px] h-[390px] flex gap-[40px] overflow-x-auto overflow-y-hidden sm:overflow-hidden sm:block [&_.group:hover~.group]:sm:translate-x-[620px]'>
         {cards.map((card, i) => {
           const isLast = i === cards.length - 1;
           const leftOffset = `${i * 15}%`;

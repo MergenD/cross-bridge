@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import bg from '/public/background.jpg';
+import bg from '/public/background.webp';
 import Navbar from '../../navbar/Navbar';
 
 const Main = () => {

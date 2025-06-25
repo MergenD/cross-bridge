@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '/public/pic4.jpg';
+import pic from '/public/pic4.webp';
 import Image from 'next/image';
 
 const Vision = () => {

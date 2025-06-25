@@ -1,5 +1,5 @@
 import React from 'react';
-import pic from '/public/pic3.jpg';
+import pic from '/public/pic3.webp';
 import Image from 'next/image';
 
 const Purpose = () => {

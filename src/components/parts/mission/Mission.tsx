@@ -1,8 +1,8 @@
 import React from 'react';
-import first from '/public/pic5.jpg';
-import third from '/public/pic6.jpg';
-import second from '/public/pic12.jpg';
-import fourth from '/public/pic11.jpg';
+import first from '/public/pic5.webp';
+import third from '/public/pic6.webp';
+import second from '/public/pic12.webp';
+import fourth from '/public/pic11.webp';
 
 const Mission = () => {
   return (

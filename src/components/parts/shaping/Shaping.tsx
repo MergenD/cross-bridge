@@ -1,5 +1,5 @@
 import React from 'react';
-import bg from '/public/background2.jpg';
+import bg from '/public/background2.webp';
 
 const Shaping = () => {
   return (
