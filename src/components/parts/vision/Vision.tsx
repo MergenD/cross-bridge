@@ -9,7 +9,7 @@ const Vision = () => {
       className='flex sm:flex-row flex-col border-t-[1px] border-[#474747]'
     >
       <div className='sm:w-[50%] h-min-[100vh] sm:h-[100vh] flex flex-col justify-center gap-[20px] sm:pl-[120px] pt-[60px] px-[22px] pb-[30px]'>
-        <h1 className='text-[#008557] text-[24px] sm:text-[36px] text-left'>
+        <h1 className='text-[#008557]! text-[24px] sm:text-[36px] text-left'>
           OUR Vision
         </h1>
         <p className='text-[16px] sm:text-[18px] sm:w-[494px]'>

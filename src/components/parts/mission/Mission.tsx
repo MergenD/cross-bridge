@@ -10,7 +10,9 @@ const Mission = () => {
       id='mission'
       className='w-full min-h-screen flex flex-col border-t-[1px] border-[#474747] pt-[60px] px-[22px] sm:p-[120px] sm:gap-[40px] gap-[30px]'
     >
-      <h1 className='text-[#008557] sm:text-[64px] text-[28px]'>OUR MISSION</h1>
+      <h1 className='text-[#008557]! sm:text-white!  sm:text-[64px] text-[28px]'>
+        OUR MISSION
+      </h1>
       <div className='flex sm:flex-row flex-col gap-[20px] items-center'>
         <div
           className='h-[350px] sm:h-[712px] sm:w-[648px] bg-cover bg-center'

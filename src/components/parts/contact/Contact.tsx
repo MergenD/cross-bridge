@@ -7,7 +7,9 @@ const Contact = () => {
       className='flex gap-[30px] sm:gap-[183px] sm:flex-row flex-col border-b-[1px] border-[#515151] px-[22px] sm:px-[120px] py-[60px]'
     >
       <div className='flex flex-col gap-[30px] sm:gap-[12px] sm:w-[430px]'>
-        <h1 className='text-[#008557] text-[28px] sm:text-[64px]'>CONTACT</h1>
+        <h1 className='text-[#008557]! sm:text-white!  text-[28px] sm:text-[64px]'>
+          CONTACT
+        </h1>
         <p className='text-[16px] sm:text-[18px]'>
           For inquiries, partnerships, or <br className='sm:hidden' /> support,
           reach out to our corporate <br className='sm:hidden' /> offices or

@@ -9,7 +9,7 @@ const AboutUs = () => {
       className='w-full h-max-[100vh] flex flex-col justify-between sm:p-[120px]'
     >
       <div className='flex flex-col sm:flex-row gap-[30px] sm:gap-[0] sm:justify-around sm:px-[0] sm:pt-[0] sm:pb-[0] px-[22px] pt-[60px] pb-[30px]'>
-        <h1 className='text-[#008557] sm:text-[64px] text-[28px] '>
+        <h1 className='text-[#008557]! sm:text-white! sm:text-[64px] text-[28px] '>
           WHO WE ARE
         </h1>
         <div className='flex flex-col gap-[20px] mb-[40px]'>

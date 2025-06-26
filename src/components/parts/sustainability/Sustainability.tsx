@@ -19,7 +19,7 @@ const Sustainability = () => {
       '
     >
       <div className='flex flex-col sm:flex-row gap-[30px] sm:gap-[132px]'>
-        <h1 className='text-[#008557] text-[28px] sm:text-[64px]'>
+        <h1 className='text-[#008557]! sm:text-white!  text-[28px] sm:text-[64px]'>
           SUSTAINABILITY
         </h1>
         <p className='w-[334px] sm:w-[415px] text-[16px] sm:text-[20px]'>

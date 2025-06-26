@@ -37,7 +37,7 @@ export default function Industries() {
       className='w-full sm:min-h-screen sm:overflow-hidden sm:relative sm:pl-28 pt-[60px] sm:p-0 pl-[22px] pr-0'
     >
       <div className='flex sm:flex-row flex-col justify-between pb-[30px] sm:pb-14 sm:pr-[194px]'>
-        <h1 className='text-[#008557] sm:text-6xl text-[28px] leading-none sm:mt-0 mt-[10px]'>
+        <h1 className='text-[#008557]! sm:text-white!  sm:text-6xl text-[28px] leading-none sm:mt-0 mt-[10px]'>
           OUR CORE INDUSTRIES
         </h1>
         <h2 className='sm:text-4xl sm:text-end text-[18px] sm:leading-none text-white'>

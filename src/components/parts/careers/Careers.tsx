@@ -6,7 +6,7 @@ const Careers = () => {
       id='careers'
       className='flex sm:flex-row flex-col sm:gap-[332px] border-b-[1px] px-[22px] border-[#515151] sm:px-[120px] py-[60px]'
     >
-      <h1 className='text-[#008557] sm:text-[64px] text-[28px] mb-[30px] sm:mb-0'>
+      <h1 className='text-[#008557]! sm:text-white!  sm:text-[64px] text-[28px] mb-[30px] sm:mb-0'>
         CAREERS
       </h1>
       <div className='flex flex-col gap-[30px] sm:gap-[40px]'>
