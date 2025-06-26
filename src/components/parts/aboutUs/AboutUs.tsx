@@ -4,7 +4,10 @@ import pic from '/public/pic1.webp';
 
 const AboutUs = () => {
   return (
-    <section id='aboutus' className='w-full h-max-[100vh] flex flex-col justify-between sm:p-[120px]'>
+    <section
+      id='aboutus'
+      className='w-full h-max-[100vh] flex flex-col justify-between sm:p-[120px]'
+    >
       <div className='flex flex-col sm:flex-row gap-[30px] sm:gap-[0] sm:justify-around sm:px-[0] sm:pt-[0] sm:pb-[0] px-[22px] pt-[60px] pb-[30px]'>
         <h1 className='text-[#008557] sm:text-[64px] text-[28px] '>
           WHO WE ARE
@@ -23,7 +26,7 @@ const AboutUs = () => {
         </div>
       </div>
       <Image
-        className='sm:w-[1200px] sm:h-[448px] h-[297px]'
+        className='sm:w-[1200px] sm:h-[448px] h-[297px] object-cover'
         src={pic}
         alt='aboutUs'
       />

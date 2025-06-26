@@ -22,7 +22,7 @@ const Identity = () => {
       </div>
       <Image
         src={pic}
-        className='sm:w-[50%] h-[297px] sm:h-[100vh]'
+        className='sm:w-[50%] h-[297px] sm:h-[100vh] object-cover'
         alt='pic2'
       />
     </section>

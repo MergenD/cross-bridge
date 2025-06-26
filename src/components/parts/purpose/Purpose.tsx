@@ -17,7 +17,11 @@ const Purpose = () => {
           chains, responsible resource management, and advanced technologies.
         </p>
       </div>
-      <Image src={pic} className='sm:w-[50%] sm:h-[100vh]' alt='pic2' />
+      <Image
+        src={pic}
+        className='sm:w-[50%] sm:h-[100vh] object-cover'
+        alt='pic2  object-cover'
+      />
     </section>
   );
 };

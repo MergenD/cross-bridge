@@ -43,7 +43,7 @@ const Sustainability = () => {
               <Image
                 src={pic}
                 alt={`pic${i + 1}`}
-                className='w-[223px] h-[244px] sm:w-auto sm:h-[385px]'
+                className='w-[223px] h-[244px] sm:w-auto sm:h-[385px] object-cover'
               />
               <p className='text-[16px] sm:text-[20px]'>
                 {
