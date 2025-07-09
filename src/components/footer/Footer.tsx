@@ -5,11 +5,11 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='w-full pb-[64px] sm:pb-[40px] h-min-[200px] flex sm:gap-[93px] gap-[44px] pt-[20px] justify-center'>
-      <Link href='#'>
+    <footer className='w-full pb-[64px] md:px-[64px] px-[21.5px] lg:pb-[40px] h-min-[200px] flex lg:gap-[93px] gap-[44px] pt-[20px] md:justify-between lg:justify-center justify-center'>
+      <Link href='#' className='h-[30px]'>
         <Image src={logo} alt='logo' width={130} height={30} />
       </Link>
-      <div className='sm:flex gap-[100px] hidden'>
+      <div className='lg:flex gap-[100px] hidden'>
         <div className='flex flex-col gap-[16px]'>
           <Link
             href='#'
@@ -51,7 +51,7 @@ const Footer = () => {
           </Link>
         </div>
       </div>
-      <div className='flex sm:gap-[192px]'>
+      <div className='flex lg:gap-[192px]'>
         <div className='flex flex-col gap-[15px]'>
           <div className='flex flex-col gap-[4px]'>
             <h1 className='text-[18px] font-[700]'>Phone</h1>
@@ -61,13 +61,13 @@ const Footer = () => {
             <h1 className='text-[18px] font-[700]'>E-mail</h1>
             <span className='text-[16px]'>crossbridge@mail.com</span>
           </div>
-          <div className='flex flex-col gap-[4px] sm:hidden'>
+          <div className='flex flex-col gap-[4px] lg:hidden'>
             <h1 className='text-[18px] font-[700]'>Address</h1>
             <span className='text-[16px]'>crossbridge@mail.com</span>
           </div>
         </div>
         <div>
-          <div className='sm:flex flex-col gap-[4px] hidden'>
+          <div className='lg:flex flex-col gap-[4px] hidden'>
             <h1 className='text-[18px] font-[700]'>Address</h1>
             <span className='text-[16px]'>crossbridge@mail.com</span>
           </div>

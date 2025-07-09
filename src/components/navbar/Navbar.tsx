@@ -24,7 +24,7 @@ const Navbar = ({
   return (
     <header className='h-[30px] sm:h-[60px] w-[100%] bg-transparent flex items-center justify-between sm:pt-[20px] pt-[15px]'>
       <Image src={logo} alt='logo' width={130} height={30} />
-      <nav className='hidden sm:flex gap-[30px] text-[16px]'>
+      <nav className='hidden lg:flex gap-[30px] text-[16px]'>
         {navItems.map((item, index) => (
           <Link
             href={`#${item.toLowerCase().replace(' ', '')}`}
@@ -35,7 +35,7 @@ const Navbar = ({
           </Link>
         ))}
       </nav>
-      <Button className='!hidden sm:!inline-flex w-[126px] h-[39px] !bg-[#002C2C] !text-[white]'>
+      <Button className='!hidden lg:!inline-flex w-[126px] h-[39px] !bg-[#002C2C] !text-[white]'>
         Contact Us
       </Button>
       <Popover
@@ -61,7 +61,7 @@ const Navbar = ({
       >
         <Button
           onClick={() => setOpen(!open)}
-          className='!inline-flex sm:!hidden h-[39px] !bg-[transparent] w-auto !border-none !shadow-none !text-[white]'
+          className='!inline-flex lg:!hidden h-[39px] !bg-[transparent] w-auto !border-none !shadow-none !text-[white]'
         >
           {!open ? (
             <RxHamburgerMenu className='w-[32px] h-[32px]' />

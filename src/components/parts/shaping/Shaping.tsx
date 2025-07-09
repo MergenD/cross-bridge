@@ -10,8 +10,8 @@ const Shaping = () => {
       }}
       className={`w-full sm:h-screen h-[50vh] mx-auto bg-no-repeat bg-center bg-[length:100%_100%]! flex items-center`}
     >
-      <h1 className='sm:w-[540px] text-[40px] sm:text-[110px] text-[400] leading-[90%] sm:ml-[120px] ml-[22px]'>
-        Shaping a <br className='sm:hidden' /> Greener{' '}
+      <h1 className='lg:w-[540px] text-[40px] md:text-[64px] lg:text-[110px] w-[290px] text-[400] leading-[90%] lg:ml-[120px] md:ml-[64px] ml-[22px]'>
+        Shaping a <br className='lg:hidden' /> Greener{' '}
         <br className='sm:hidden' /> Tomorrow
       </h1>
     </section>
