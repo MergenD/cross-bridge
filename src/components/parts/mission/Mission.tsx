@@ -31,7 +31,7 @@ export default function Mission() {
   const innerRef = useRef<HTMLDivElement>(null);
   const [scrollWidth, setScrollWidth] = useState(0);
   const [height, setHeight] = useState('100vh');
-  const isMobile = window.outerWidth < 769;
+  const isMobile = window && window.outerWidth < 769;
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ['start 20%', 'end 90%'],
@@ -42,14 +42,18 @@ export default function Mission() {
     [0, -(scrollWidth ?? 0)]
   );
 
+  console.log(window);
+
   useEffect(() => {
     if (innerRef.current) {
       const totalWidth = innerRef.current.scrollWidth;
       const viewportWidth = innerRef.current.offsetWidth;
       const scrollable = totalWidth - viewportWidth;
       setScrollWidth(scrollable);
-      const extra = window.innerHeight * 0.3;
-      setHeight(`${scrollable + window.innerHeight + extra}px`);
+      if (window) {
+        const extra = window.innerHeight * 0.3;
+        setHeight(`${scrollable + window.innerHeight + extra}px`);
+      }
     }
   }, []);
 
@@ -114,5 +118,3 @@ export default function Mission() {
     </section>
   );
 }
-
-//

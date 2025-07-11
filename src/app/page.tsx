@@ -8,7 +8,6 @@ import Industries from '../components/parts/industries/Industries';
 import Technology from '../components/parts/technology/Technology';
 import Shaping from '../components/parts/shaping/Shaping';
 import Sustainability from '../components/parts/sustainability/Sustainability';
-// import Careers from '../components/parts/careers/Careers';
 import Contact from '../components/parts/contact/Contact';
 import Footer from '../components/footer/Footer';
 
