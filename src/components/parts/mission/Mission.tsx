@@ -42,8 +42,6 @@ export default function Mission() {
     [0, -(scrollWidth ?? 0)]
   );
 
-  console.log(window);
-
   useEffect(() => {
     if (innerRef.current) {
       const totalWidth = innerRef.current.scrollWidth;
