@@ -29,9 +29,11 @@ const cards = [
 export default function Mission() {
   const containerRef = useRef<HTMLDivElement>(null);
   const innerRef = useRef<HTMLDivElement>(null);
+
+  const [isMobile, setIsMobile] = useState(false);
   const [scrollWidth, setScrollWidth] = useState(0);
   const [height, setHeight] = useState('100vh');
-  const isMobile = window && window.outerWidth < 769;
+
   const { scrollYProgress } = useScroll({
     target: containerRef,
     offset: ['start 20%', 'end 90%'],
@@ -43,16 +45,25 @@ export default function Mission() {
   );
 
   useEffect(() => {
+    const updateIsMobile = () => {
+      setIsMobile(window.innerWidth < 769);
+    };
+    updateIsMobile();
+    window.addEventListener('resize', updateIsMobile);
+
     if (innerRef.current) {
       const totalWidth = innerRef.current.scrollWidth;
       const viewportWidth = innerRef.current.offsetWidth;
       const scrollable = totalWidth - viewportWidth;
       setScrollWidth(scrollable);
-      if (window) {
-        const extra = window.innerHeight * 0.3;
-        setHeight(`${scrollable + window.innerHeight + extra}px`);
-      }
+
+      const extra = window.innerHeight * 0.3;
+      setHeight(`${scrollable + window.innerHeight + extra}px`);
     }
+
+    return () => {
+      window.removeEventListener('resize', updateIsMobile);
+    };
   }, []);
 
   return (
