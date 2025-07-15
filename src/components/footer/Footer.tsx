@@ -5,7 +5,7 @@ import Link from 'next/link';
 
 const Footer = () => {
   return (
-    <footer className='w-full pb-[64px] md:px-[64px] px-[21.5px] lg:pb-[40px] h-min-[200px] flex lg:gap-[93px] gap-[44px] pt-[20px] md:justify-between lg:justify-center justify-center'>
+    <footer className='w-full pb-[64px] md:px-[64px] px-[21.5px] lg:pb-[40px] h-min-[200px] flex lg:gap-[93px] gap-[44px] pt-[20px] lg:justify-around md:justify-between justify-center'>
       <Link href='#' className='h-[30px]'>
         <Image src={logo} alt='logo' width={130} height={30} />
       </Link>

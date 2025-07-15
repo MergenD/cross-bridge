@@ -19,10 +19,10 @@ const Purpose = () => {
       >
         <h1
           className='
-            text-[24px]             
-            sm:text-[36px]          
+            text-[24px]                     
             md:text-[26px]          
-            lg:text-[36px]          
+            lg:text-[36px]   
+            2xl-text-[48px]       
             text-left
             text-[#008557] sm:text-white
           '
@@ -32,9 +32,10 @@ const Purpose = () => {
         <p
           className='
             text-[14px]            
-            md:text-[18px]         
+            lg:text-[18px]         
             md:w-[300px]            
-            lg:w-[494px]           
+            lg:w-[494px]  
+            2xl:text-[24px]          
           '
         >
           To enable transformation across industries through reliable supply

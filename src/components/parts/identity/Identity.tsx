@@ -19,10 +19,10 @@ const Identity = () => {
       >
         <h1
           className='
-            text-[24px]             
-            sm:text-[36px]          
+            text-[24px]                    
             md:text-[26px]          
-            lg:text-[36px]          
+            lg:text-[36px]
+            2xl-text-[48px]          
             text-left
             text-[#008557] sm:text-white
           '
@@ -32,9 +32,10 @@ const Identity = () => {
         <p
           className='
             text-[14px]            
-            md:text-[18px]         
+            lg:text-[18px]         
             md:w-[300px]            
-            lg:w-[494px]           
+            lg:w-[494px]      
+            2xl:text-[24px]     
           '
         >
           At CrossBridge, we integrate traditional strengths with digital
@@ -52,8 +53,7 @@ const Identity = () => {
           w-full
           md:w-1/2
           h-[297px]             
-          md:h-screen           
-          lg:h-screen            
+          md:h-screen                      
           object-cover
         '
       />

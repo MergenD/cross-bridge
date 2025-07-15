@@ -15,15 +15,17 @@ const Sustainability = () => {
         sm:border-b-[1px] sm:border-[#515151]
         pt-[60px] md:pt-[100px] pl-[22px]
         lg:p-[120px]
+        2xl:p-[160px]
         md:p-[64px]
+        2xl:gap-[60px]
         gap-[30px] md:gap-[20px] lg:gap-[60px]
       '
     >
       <div className='flex flex-col sm:flex-row sm:gap-[30px] md:gap-[52px] lg:gap-[132px]'>
-        <h1 className='text-[#008557]! sm:text-white! md:text-[36px] text-[28px] lg:text-[64px]'>
+        <h1 className='text-[#008557]! sm:text-white! md:text-[36px] text-[28px] 2xl:text-[96px] lg:text-[64px]'>
           SUSTAINABILITY
         </h1>
-        <p className='w-auto sm:w-[415px] md:text-[14px] sm:text-[16px] lg:text-[20px]'>
+        <p className='w-auto sm:w-[415px] md:text-[14px] sm:text-[16px] 2xl:text-[24px] lg:text-[20px]'>
           We are committed to sustainability through environmental stewardship,
           community empowerment, and responsible innovation.
         </p>
@@ -38,15 +40,15 @@ const Sustainability = () => {
                 flex-none
                 flex flex-col
                 gap-[14px] lg:gap-[16px]
-                w-[223px] md:w-[310px] lg:w-[29%]
+                w-[223px] md:w-[310px] lg:w-[380px] 2xl:w-[493px]
               '
             >
               <Image
                 src={pic}
                 alt={`pic${i + 1}`}
-                className='w-[223px] h-[244px] md:w-[310px] lg:w-auto lg:h-[385px] object-cover'
+                className='w-[223px] h-[244px] md:w-[310px] lg:w-auto 2xl:h-[499px] lg:h-[385px] object-cover'
               />
-              <p className='text-[16px] sm:text-[20px]'>
+              <p className='text-[16px] sm:text-[20px] 2xl:text-[30px]'>
                 {
                   [
                     'Emission reduction strategies',

@@ -5,7 +5,6 @@ import Purpose from '../components/parts/purpose/Purpose';
 import Vision from '../components/parts/vision/Vision';
 import Mission from '../components/parts/mission/Mission';
 import Industries from '../components/parts/industries/Industries';
-import Technology from '../components/parts/technology/Technology';
 import Shaping from '../components/parts/shaping/Shaping';
 import Sustainability from '../components/parts/sustainability/Sustainability';
 import Contact from '../components/parts/contact/Contact';
@@ -29,10 +28,8 @@ export default function HomePage() {
       </div>
       <Mission />
       <Industries />
-      <Technology />
       <Shaping />
       <Sustainability />
-      {/* <Careers /> */}
       <Contact />
       <Footer />
     </div>
