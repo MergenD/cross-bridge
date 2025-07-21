@@ -12,25 +12,13 @@ const Footer = () => {
       <div className='lg:flex gap-[100px] hidden'>
         <div className='flex flex-col gap-[16px]'>
           <Link
-            href='#'
-            className='text-[16px] font-[400] text-white hover:text-[#a8a8a8]'
-          >
-            Home
-          </Link>
-          <Link
-            href='#'
+            href='#aboutus'
             className='text-[16px] font-[400] text-white hover:text-[#a8a8a8]'
           >
             About Us
           </Link>
           <Link
-            href='#'
-            className='text-[16px] font-[400] text-white hover:text-[#a8a8a8]'
-          >
-            Businesses
-          </Link>
-          <Link
-            href='#'
+            href='#sustainability'
             className='text-[16px] font-[400] text-white hover:text-[#a8a8a8]'
           >
             Sustainability
@@ -38,13 +26,7 @@ const Footer = () => {
         </div>
         <div className='flex flex-col gap-[16px] pt-[10px]'>
           <Link
-            href='#'
-            className='text-[16px] font-[400] text-white hover:text-[#a8a8a8]'
-          >
-            Careers
-          </Link>
-          <Link
-            href='#'
+            href='#contact'
             className='text-[16px] font-[400] text-white hover:text-[#a8a8a8]'
           >
             Contact Us

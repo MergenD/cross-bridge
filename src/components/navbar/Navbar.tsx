@@ -13,13 +13,7 @@ const Navbar = ({
   open: boolean;
   setOpen: React.Dispatch<React.SetStateAction<boolean>>;
 }) => {
-  const navItems = [
-    'Home',
-    'About Us',
-    'Businesses',
-    'Sustainability',
-    'Careers',
-  ];
+  const navItems = ['About Us', 'Sustainability'];
 
   return (
     <header className='h-[30px] sm:h-[60px] w-[100%] bg-transparent flex items-center justify-between sm:pt-[20px] pt-[15px]'>
@@ -35,9 +29,12 @@ const Navbar = ({
           </Link>
         ))}
       </nav>
-      <Button className='!hidden lg:!inline-flex w-[126px] h-[39px] !bg-[#002C2C] !text-[white]'>
+      <Link
+        href='#contact'
+        className='!hidden lg:!inline-flex w-[126px] h-[39px] !bg-[#002C2C] !text-[white] justify-center items-center rounded-[5px] hover:bg-[#008557] hover:text-[white] transition-all duration-300'
+      >
         Contact Us
-      </Button>
+      </Link>
       <Popover
         trigger='click'
         open={open}

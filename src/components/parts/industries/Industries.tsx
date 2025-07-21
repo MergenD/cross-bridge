@@ -34,7 +34,7 @@ export default function Industries() {
   return (
     <section
       id='industries'
-      className='w-full lg:mt-[20px] pb-[60px] lg:px-120px md:px-[64px] pl-[22px] pr-[20px] pt-[60px] lg:pl-28 lg:relative lg:overflow-hidden'
+      className='w-full lg:mt-[20px] pb-[60px] lg:px-120px md:px-[64px] pl-[22px] lg:pr-0 pr-[20px] pt-[60px] lg:pl-28 lg:relative lg:overflow-hidden'
     >
       <div className='flex flex-col justify-between pb-[30px] lg:flex-row lg:pb-14 lg:pr-[194px]'>
         <h1 className='text-[#008557]! text-[28px] leading-none mt-[10px] lg:text-white! 2xl:text-[96px] lg:text-6xl lg:mt-0'>
@@ -62,7 +62,7 @@ export default function Industries() {
                         border border-white bg-[#1A1A1A]/95 p-[20px] text-white text-left
                         transition-all duration-300 ease-in-out lg:flex lg:gap-[20px]
                         md:static
-                        lg:absolute lg:top-0 lg:w-[478px] lg:h-full lg:pr-[20px] lg:flex-row lg:justify-between lg:p-6 2xl:hover:w-[925px] lg:hover:w-[840px] hover:z-50
+                        lg:absolute lg:top-0 lg:w-[478px] lg:h-full lg:pr-[20px] lg:flex-row lg:justify-between lg:p-6 2xl:hover:w-[910px] lg:hover:w-[840px] hover:z-50
                         ${
                           i === cards.length - 1
                             ? 'lg:hover:right-0 lg:mr-0'
