@@ -6,7 +6,7 @@ const AboutUs = () => {
   return (
     <section
       id='aboutus'
-      className='w-full 2xl:h-[100vh] lg:h-max-[100vh] flex flex-col justify-between md:px-[60px] 2xl:p-[160px] sm:p-[120px]'
+      className='w-full flex flex-col justify-between md:px-[60px] 2xl:p-[160px] sm:p-[120px]'
     >
       <div className='flex flex-col sm:flex-row gap-[30px] sm:gap-[0] sm:justify-around sm:px-[0] sm:pt-[0] sm:pb-[0] px-[22px] pt-[60px] pb-[30px]'>
         <h1 className='text-[#008557]! sm:text-white! 2xl:text-[96px] lg:text-[64px] md:text-[36px] text-[28px] '>

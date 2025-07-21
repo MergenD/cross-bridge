@@ -30,7 +30,7 @@ const Form = () => {
         <div className='flex flex-col gap-[4px]'>
           <p className='text-[12px] 2xl:text-[18px]'>Text</p>
           <textarea
-            className='px-[22px] py-[15px] h-[98px] w-[100%] lg:w-[460px] border-[1px] border-[#9A9A9A]'
+            className='px-[22px] py-[15px] h-[98px] w-[100%] lg:w-[360px] xl:w-[460px] border-[1px] border-[#9A9A9A]'
             placeholder='Text'
             value={data.content}
             onChange={(e) => setData({ ...data, content: e.target.value })}

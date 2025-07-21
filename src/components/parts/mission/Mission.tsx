@@ -73,7 +73,7 @@ export default function Mission() {
       className='w-full border-t border-[#474747] pt-[60px] px-[22px] md:px-[64px] sm:px-[120px]'
       style={{ height: !isMobile ? height : 'auto' }}
     >
-      <div className='hidden lg:block sticky top-0 overflow-hidden h-screen'>
+      <div className='hidden lg:block sticky top-0 overflow-hidden'>
         <h1 className='sticky top-0 z-20 text-[#008557] sm:text-white sm:text-[64px] text-[28px] py-4 mb-8'>
           OUR MISSION
         </h1>
@@ -92,7 +92,7 @@ export default function Mission() {
                 whileInView={{ scale: activeScale }}
                 transition={{ type: 'spring', stiffness: 300, damping: 30 }}
                 viewport={{ amount: 0.6, once: false }}
-                className='relative h-[712px] w-[648px] flex-shrink-0 bg-cover bg-center rounded-2xl overflow-hidden'
+                className='relative lg:h-[600px] xl:h-[712px] w-[648px] flex-shrink-0 bg-cover bg-center rounded-2xl overflow-hidden'
                 style={{
                   backgroundImage: `linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,0.6) 100%), url(${card.img})`,
                 }}
@@ -106,7 +106,7 @@ export default function Mission() {
         </motion.div>
       </div>
 
-      <div className='sm:h-full md:h-auto xl:hidden mt-[20px]'>
+      <div className='sm:h-full md:h-auto md:hidden mt-[20px]'>
         <h1 className='text-[#008557] text-[28px]'>OUR MISSION</h1>
         <div className='sm:flex sm:flex-col md:grid md:grid-cols-2 gap-[20px]'>
           {cards.map((card, idx) => (

@@ -12,7 +12,7 @@ const Sustainability = () => {
         h-min-[100vh]
         flex
         flex-col
-        sm:border-b-[1px] sm:border-[#515151]
+        md:border-b-[1px] md:border-[#515151]
         pt-[60px] md:pt-[100px] pl-[22px]
         lg:p-[120px]
         2xl:p-[160px]
@@ -22,7 +22,7 @@ const Sustainability = () => {
       '
     >
       <div className='flex flex-col sm:flex-row sm:gap-[30px] md:gap-[52px] lg:gap-[132px]'>
-        <h1 className='text-[#008557]! sm:text-white! md:text-[36px] text-[28px] 2xl:text-[96px] lg:text-[64px]'>
+        <h1 className='text-[#008557]! sm:text-white! md:text-[36px] text-[28px] lg:text-[48px] 2xl:text-[96px] xl:text-[64px]'>
           SUSTAINABILITY
         </h1>
         <p className='w-auto sm:w-[415px] md:text-[14px] sm:text-[16px] 2xl:text-[24px] lg:text-[20px]'>
@@ -32,21 +32,22 @@ const Sustainability = () => {
       </div>
 
       <div className='overflow-x-auto lg:overflow-hidden pr-[22px]'>
-        <div className='flex flex-nowrap gap-[30px] h-[100%] w-max'>
+        <div className='flex flex-nowrap gap-[30px] justify-between h-[100%]'>
           {[pic1, pic2, pic3].map((pic, i) => (
             <div
               key={i}
               className='
                 flex-none
+                lg:flex-1/3
                 flex flex-col
                 gap-[14px] lg:gap-[16px]
-                w-[223px] md:w-[310px] lg:w-[380px] 2xl:w-[493px]
+                w-[230px] lg:w-auto
               '
             >
               <Image
                 src={pic}
                 alt={`pic${i + 1}`}
-                className='w-[223px] h-[244px] md:w-[310px] lg:w-auto 2xl:h-[499px] lg:h-[385px] object-cover'
+                className='h-[244px] 2xl:h-[499px] xl:h-[385px] object-cover'
               />
               <p className='text-[16px] sm:text-[20px] 2xl:text-[30px]'>
                 {

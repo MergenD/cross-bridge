@@ -33,8 +33,6 @@ const Purpose = () => {
           className='
             text-[14px]            
             lg:text-[18px]         
-            md:w-[300px]            
-            lg:w-[494px]  
             2xl:text-[24px]          
           '
         >

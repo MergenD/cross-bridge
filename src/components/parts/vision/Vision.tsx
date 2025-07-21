@@ -27,14 +27,12 @@ const Vision = () => {
             text-[#008557] sm:text-white
           '
         >
-          OUR Vision
+          OUR VISION
         </h1>
         <p
           className='
             text-[14px]            
-            lg:text-[18px]         
-            md:w-[300px]            
-            lg:w-[494px]      
+            lg:text-[18px]          
             2xl:text-[24px]      
           '
         >
