@@ -9,6 +9,7 @@ import Shaping from '../components/parts/shaping/Shaping';
 import Sustainability from '../components/parts/sustainability/Sustainability';
 import Contact from '../components/parts/contact/Contact';
 import Footer from '../components/footer/Footer';
+import ScrollComponent from '@/components/scrollComponent/ScrollComponent';
 
 export default function HomePage() {
   return (

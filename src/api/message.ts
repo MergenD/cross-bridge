@@ -6,11 +6,9 @@ interface Message {
 import { apiUrl } from '@/constants/api';
 
 export const sendMessage = async (data: Message) => {
-  const response = await fetch(`${apiUrl}/message`, {
+  const response = await fetch(`${apiUrl}/messages/`, {
     method: 'POST',
-    headers: {
-      'Content-Type': 'application/json',
-    },
+    headers: { 'Content-Type': 'application/json' },
     body: JSON.stringify(data),
   });
   return response.json();
