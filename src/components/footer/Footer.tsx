@@ -37,21 +37,31 @@ const Footer = () => {
         <div className='flex flex-col gap-[15px]'>
           <div className='flex flex-col gap-[4px]'>
             <h1 className='text-[18px] font-[700]'>Phone</h1>
-            <span className='text-[16px]'>+993 64565656</span>
+            <a href='tel:+971588496134' className='text-[16px]'>
+              +971 58 849 6134
+            </a>
           </div>
           <div className='flex flex-col gap-[4px]'>
             <h1 className='text-[18px] font-[700]'>E-mail</h1>
-            <span className='text-[16px]'>crossbridge@mail.com</span>
+            <a href='mailto:crossbridge@mail.com' className='text-[16px]'>
+              crossbridge@mail.com
+            </a>
           </div>
           <div className='flex flex-col gap-[4px] lg:hidden'>
             <h1 className='text-[18px] font-[700]'>Address</h1>
-            <span className='text-[16px]'>crossbridge@mail.com</span>
+            <span className='text-[16px]'>
+              Address: UAE, Dubai, Business bay, The Regal Tower, 12th floor,
+              1203
+            </span>
           </div>
         </div>
         <div>
           <div className='lg:flex flex-col gap-[4px] hidden'>
             <h1 className='text-[18px] font-[700]'>Address</h1>
-            <span className='text-[16px]'>crossbridge@mail.com</span>
+            <span className='text-[16px]'>
+              Address: UAE, Dubai, Business bay, The Regal Tower, 12th floor,
+              1203
+            </span>
           </div>
         </div>
       </div>
