@@ -50,8 +50,7 @@ const Footer = () => {
           <div className='flex flex-col gap-[4px] lg:hidden'>
             <h1 className='text-[18px] font-[700]'>Address</h1>
             <span className='text-[16px]'>
-              Address: UAE, Dubai, Business bay, The Regal Tower, 12th floor,
-              1203
+              UAE, Dubai, Business bay, The Regal Tower, 12th floor, 1203
             </span>
           </div>
         </div>
@@ -59,8 +58,7 @@ const Footer = () => {
           <div className='lg:flex flex-col gap-[4px] hidden'>
             <h1 className='text-[18px] font-[700]'>Address</h1>
             <span className='text-[16px]'>
-              Address: UAE, Dubai, Business bay, The Regal Tower, 12th floor,
-              1203
+              UAE, Dubai, Business bay, The Regal Tower, 12th floor, 1203
             </span>
           </div>
         </div>
